@@ -20,7 +20,7 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
     private fun showNotification(title: String?, body: String?) {
         val notificationManager = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
 
-        if (notificationManager != null) {
+
             val channelId = "my_channel_01"
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
                 val name = "chanel_name"
@@ -41,7 +41,6 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
                 .setContentInfo("Info")
 
             notificationManager.notify(Random().nextInt(), mBuilder.build())
-        }
     }
 
     override fun onNewToken(s: String?) {
