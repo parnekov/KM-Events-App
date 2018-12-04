@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0d1017</color>
+    <color name="colorPrimaryDark">#0A0E11</color>
+    <color name="colorAccent">#47cfa7</color>
+    <color name="color_text_splash_km_city">#00a6ff</color>
+    <color name="color_text_splash_events">#F2AB19</color>
+    <color name="color_block_ent_disco">#B437E6</color>
+    <color name="color_block_ent_cinema">#A7031B</color>
+    <color name="color_block_ent_sport">#41980a</color>
+    <color name="color_block_ent_theater">#DC6F1E</color>
+    <color name="color_back_nav_header">#343F4B</color>
+    <color name="color_back_nav_list">#495c71</color>
+    <color name="color_back_blocks_list">#495c71</color>
+    <color name="color_divider">#2b3034</color>
+    <color name="color_text_sign_up">#c45256</color>
+</resources>

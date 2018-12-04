@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_margin="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_title_event"
+            android:textSize="24sp"
+            android:textColor="@android:color/white"
+            tools:text="@string/text_test_party_students_day"/>
+
+    <LinearLayout
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_access_time"
+                android:id="@+id/imageView"
+                android:contentDescription="@string/image_descr"/>
+
+        <TextView
+                android:layout_gravity="center"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_view_date_time"
+                tools:text="@string/text_test_25_november_23_00" android:shadowColor="@android:color/white"
+                android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_location"
+                android:id="@+id/imageView2"
+                android:contentDescription="@string/image_descr"/>
+        <TextView
+                android:layout_gravity="center"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_view_address"
+                tools:text="@string/text_testsv_club_prosp_myru_2" android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_price"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            tools:text="@string/text_100_uah"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="2dp"/>
+
+    <View
+            android:layout_marginTop="4dp"
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_divider"/>
+</LinearLayout>
+
+

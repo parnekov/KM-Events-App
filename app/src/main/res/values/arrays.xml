@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="blocks_events">
+        <item>@string/text_disco</item>
+        <item>@string/text_cinema</item>
+        <item>@string/text_concerts</item>
+        <item>@string/text_theater</item>
+    </string-array>
+</resources>

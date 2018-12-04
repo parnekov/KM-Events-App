@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+        android:background="@drawable/shape_for_ent_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            app:srcCompat="@drawable/ic_party"
+            android:id="@+id/image_view_disco"
+            android:layout_marginTop="64dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:contentDescription="@string/todo"/>
+
+    <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            app:srcCompat="@drawable/ic_cinema"
+            android:id="@+id/image_view_cinema"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp" android:layout_marginTop="64dp"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+            android:text="Disco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_disco"
+            android:textColor="@android:color/white"
+            android:textAllCaps="true"
+            app:layout_constraintEnd_toEndOf="@+id/image_view_disco"
+            app:layout_constraintStart_toStartOf="@+id/image_view_disco" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/image_view_disco"/>
+
+    <TextView
+            android:text="Cinema"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_cinema"
+            android:textColor="@android:color/white"
+            android:textAllCaps="true"
+            app:layout_constraintEnd_toEndOf="@+id/image_view_cinema"
+            app:layout_constraintStart_toStartOf="@+id/image_view_cinema" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/image_view_cinema"/>
+    <View
+            android:id="@+id/divider6"
+            android:layout_width="125dp"
+            android:layout_height="1dp"
+            android:background="@color/color_divider"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent" tools:background="#2B3034"/>
+    <View
+            android:id="@+id/divider7"
+            android:layout_width="130dp"
+            android:layout_height="1dp"
+            android:background="@color/color_divider"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="28dp"
+            android:layout_marginRight="28dp" android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"
+            tools:background="#2B3034"/>
+
+    <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            app:srcCompat="@drawable/ic_concerts"
+            android:id="@+id/image_view_concerts"
+            android:layout_marginTop="64dp"
+            app:layout_constraintTop_toBottomOf="@+id/divider6" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"/>
+
+    <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            app:srcCompat="@drawable/ic_theater"
+            android:id="@+id/image_view_theater"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="64dp"
+            app:layout_constraintTop_toBottomOf="@+id/divider7"/>
+
+    <TextView
+            android:text="Concerts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_concerts"
+            android:textColor="@android:color/white"
+            android:textAllCaps="true"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/image_view_concerts"
+            app:layout_constraintStart_toStartOf="@+id/image_view_concerts"
+            app:layout_constraintEnd_toEndOf="@+id/image_view_concerts"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintVertical_bias="0.041"/>
+
+    <TextView
+            android:text="Theater"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_theater"
+            android:textColor="@android:color/white"
+            android:textAllCaps="true"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/image_view_theater"
+            app:layout_constraintStart_toStartOf="@+id/image_view_theater"
+            app:layout_constraintEnd_toEndOf="@+id/image_view_theater"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.53" app:layout_constraintVertical_bias="0.041"/>
+    <View
+            android:id="@+id/divider8"
+            android:layout_width="1dp"
+            android:layout_height="180dp"
+            android:background="@color/color_divider"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.155"
+            app:layout_constraintStart_toEndOf="@+id/image_view_disco" android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/image_view_cinema" android:layout_marginRight="8dp"/>
+    <View
+            android:id="@+id/divider9"
+            android:layout_width="1dp"
+            android:layout_height="190dp"
+            android:background="@color/color_divider"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.861"
+            app:layout_constraintStart_toEndOf="@+id/image_view_concerts" android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/image_view_theater" android:layout_marginRight="8dp"/>
+</android.support.constraint.ConstraintLayout>

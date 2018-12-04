@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "227700293895",
+    "firebase_url": "https://kmcityevents.firebaseio.com",
+    "project_id": "kmcityevents",
+    "storage_bucket": "kmcityevents.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227700293895:android:1e75143686b48ca8",
+        "android_client_info": {
+          "package_name": "com.parnekov.sasha.kmcityevents"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "227700293895-6tul74cj16acmeb0orfpqr0m1g2erdac.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.parnekov.sasha.kmcityevents",
+            "certificate_hash": "e39570b682ebd065640ba21486c8ed72968b6eb9"
+          }
+        },
+        {
+          "client_id": "227700293895-r4ao7mvfntiefhejpj9qdk3s19vb00ju.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4BYt1yEvXV9h0n2B65ThSDqSIQt4aGGA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "227700293895-r4ao7mvfntiefhejpj9qdk3s19vb00ju.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

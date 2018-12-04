@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">KMCityEvents</string>
+    <string name="text_km_city">KM City</string>
+    <string name="text_events">Events</string>
+    <string name="image_descr">image description</string>
+    <string name="text_disco">Disco</string>
+    <string name="icon_desc">icon</string>
+    <string name="text_cinema">Cinema</string>
+    <string name="text_sport">Sport</string>
+    <string name="text_theater">Theater</string>
+    <string name="text_concerts">Concerts</string>
+    <string name="text_nav_header_title">KM City Events</string>
+    <string name="text_nav_add_event">Add Event</string>
+    <string name="text_nav_share">Share</string>
+    <string name="text_nav_write_feed_back">Write Feedback</string>
+    <string name="text_nav_about">About</string>
+    <string name="text_log_out">Log out</string>
+    <string name="text_test_party_students_day">Party \'Students Day\'</string>
+    <string name="text_test_desr">Неділя! Остання можливість відпочити перед новим робочим тижднем!😍 Чекаємо на вас в
+        @luxclub_khm вул. Кам\'янецька, 21 (ТЦ \"Либідь
+    </string>
+    <string name="text_call">Call:</string>
+    <string name="text_380675698574">+380675698574</string>
+    <string name="text_test_25_november_23_00">25 November 23:00</string>
+    <string name="text_testsv_club_prosp_myru_2">SV Club (prosp. Myru, 2)</string>
+    <string name="text_100_uah">100 UAH</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="text_email">Email</string>
+    <string name="text_button_enter">Enter</string>
+    <string name="text_button_sing_up">Sing Up</string>
+    <string name="text_hint_password">Password</string>
+    <string name="text_dialog_Ok">OK</string>
+
+    <string name="url_app_">https://kotlinlang.ru/docs/reference/basic-types.html</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="text_hint_email">Email:</string>
+    <string name="text_hint_pass">Pass:</string>
+    <string name="text_incorrect_password">Incorrect Password</string>
+    <string name="text_log_in">Log In</string>
+    <string name="text_first_time_here">First time here?</string>
+    <string name="todo">TODO</string>
+    <string name="default_notification_channel_id">channel_id</string>
+
+
+</resources>
