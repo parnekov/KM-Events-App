@@ -7,11 +7,9 @@ This app helps you find events in Khmelnitskiy city. (Test project with dummy da
 <table align="left" width="100%">
   <tbody>
     <tr>
-      <td colspan="1"> <img src="./screenshots/01_splash_activity.png" alt="splash_activity"/> </td>
-      <td colspan="1"> <img src="./screenshots/02_list_of_ent.png" alt="list_of_ent"/> </td>
-      <td colspan="1"> <img src="./screenshots/03_navigation_view.png" alt="navigation_view"/> </td>
-      <td colspan="1"> <img src="./screenshots/04_list_of_events.png" alt="list_of_events"/> </td>
-      <td colspan="1"> <img src="./screenshots/05_event_datails.png" alt="event_details"/> </td>
+      <td colspan="1"> <img src="./screenshots/01.png" alt="log_in"/> </td>
+      <td colspan="1"> <img src="./screenshots/03.png" alt="list_of_ent"/> </td>
+      <td colspan="1"> <img src="./screenshots/04.png" alt="event_details"/> </td>
     </tr>
   </tbody>
 </table>
