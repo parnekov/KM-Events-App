@@ -2,6 +2,7 @@
 Kotlin, Android SDK, Firebase(Authentication, Database, Storage), Glide, Fragments, RecyclerView, ConstraintLayout, DatePicker, TimePicker. 
 
 This app helps you find events in Khmelnitskiy city. (Test project with dummy data)
+(The application is still under development)
 
 ## View
 <table align="left" width="100%">
